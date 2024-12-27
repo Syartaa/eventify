@@ -12,14 +12,14 @@ class SElevetedButtonTheme {
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
       side: BorderSide(color: AppColors.primaryColor),
-      padding: const EdgeInsets.symmetric(vertical: 18),
+      padding: const EdgeInsets.symmetric(vertical: 10),
       textStyle: TextStyle(
         fontFamily: 'Poppins',
         fontSize: 16,
         color: AppColors.textColor,
         fontWeight: FontWeight.w600,
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
     ),
   );
 }

@@ -1,3 +1,4 @@
+import 'package:eventify_app/screens/onboarding/onboarding_screen.dart';
 import 'package:eventify_app/utilis/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lighTheme,
       //darkTheme: AppTheme.darkTheme,
 
-      home: Text("data"),
+      home: OnboardingScreen(),
     );
   }
 }

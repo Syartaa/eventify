@@ -1,4 +1,4 @@
-import 'package:eventify_app/screens/login/login_screen.dart';
+import 'package:eventify_app/screens/authentification/login/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get/get.dart';
