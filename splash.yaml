@@ -1,0 +1,7 @@
+
+flutter_native_splash:
+  color: "#F9FBFA"  # Light theme color
+  image: assets/logo/logo.png  # Splash image for light theme
+  android_12:  # Android 12+ specific settings
+    color: "#F9FBFA"  # Light theme color on Android 12+
+    image: assets/logo/logo.png  # Splash image for Android 12+
