@@ -1,5 +1,6 @@
 import 'package:eventify_app/screens/event/event_screen.dart';
 import 'package:eventify_app/screens/home/home_screen.dart';
+import 'package:eventify_app/screens/invitations/invitation_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -60,7 +61,7 @@ class NavigationMenu extends ConsumerWidget {
       case 1:
         return EventScreen();
       case 2:
-        return Container();
+        return InvitationScreen();
       case 3:
         return Container();
       default:
