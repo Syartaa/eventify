@@ -21,12 +21,12 @@ class STextFormFieldTheme {
     labelStyle: TextStyle(
       fontFamily: 'Poppins', // Use locally bundled Poppins font
       fontSize: 14,
-      color: AppColors.textColor,
+      color: const Color.fromARGB(183, 133, 133, 133),
     ),
     hintStyle: TextStyle(
       fontFamily: 'Poppins', // Use locally bundled Poppins font
       fontSize: 14,
-      color: AppColors.textColor,
+      color: const Color.fromARGB(183, 133, 133, 133),
     ),
     errorStyle: TextStyle(
       fontFamily: 'Poppins', // Use locally bundled Poppins font

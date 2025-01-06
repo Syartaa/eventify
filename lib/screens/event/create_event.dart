@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:eventify_app/components/widget/appbar.dart';
 import 'package:eventify_app/constants/curved_edges_widget.dart';
 import 'package:eventify_app/screens/event/widget/event_form.dart';

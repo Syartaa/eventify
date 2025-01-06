@@ -3,13 +3,11 @@
 import 'package:eventify_app/components/widget/appbar.dart';
 import 'package:eventify_app/constants/curved_edges_widget.dart';
 import 'package:eventify_app/screens/event/create_event.dart';
-import 'package:eventify_app/screens/event/widget/event_form.dart';
 import 'package:eventify_app/screens/home/widget/event_card.dart';
 import 'package:eventify_app/screens/home/widget/upcomming_events.dart';
 import 'package:eventify_app/utilis/theme/custom_themes/appbar_theme.dart';
 
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
