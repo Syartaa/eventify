@@ -1,3 +1,4 @@
+import 'package:eventify_app/navigation_menu.dart';
 import 'package:flutter/material.dart';
 
 class LoginForm extends StatelessWidget {
@@ -73,8 +74,8 @@ class LoginForm extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(vertical: 16.0),
               ),
               onPressed: () {
-                // Navigator.of(context).push(
-                //     MaterialPageRoute(builder: (ctx) => NavigationMenu()));
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (ctx) => NavigationMenu()));
               },
               child: const Text(
                 "Sign In",
