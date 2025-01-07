@@ -1,5 +1,8 @@
+// ignore_for_file: sort_child_properties_last
+
 import 'package:eventify_app/components/widget/appbar.dart';
 import 'package:eventify_app/constants/curved_edges_widget.dart';
+import 'package:eventify_app/utilis/theme/custom_themes/appbar_theme.dart';
 import 'package:flutter/material.dart';
 
 class InvitationScreen extends StatelessWidget {
@@ -57,7 +60,7 @@ class InvitationScreen extends StatelessWidget {
                           invite['name']![0],
                           style: const TextStyle(color: Colors.white),
                         ),
-                        backgroundColor: Colors.blueAccent,
+                        backgroundColor: AppColors.primaryColor,
                       ),
                       title: Text(invite['name']!),
                       subtitle: Text(invite['email']!),

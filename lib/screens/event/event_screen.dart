@@ -2,6 +2,7 @@
 
 import 'package:eventify_app/components/widget/appbar.dart';
 import 'package:eventify_app/constants/curved_edges_widget.dart';
+import 'package:eventify_app/utilis/theme/custom_themes/appbar_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 
@@ -61,11 +62,11 @@ class _EventScreenState extends State<EventScreen> {
                 },
                 calendarStyle: CalendarStyle(
                   todayDecoration: BoxDecoration(
-                    color: Colors.blueAccent,
+                    color: AppColors.primaryColor,
                     shape: BoxShape.circle,
                   ),
                   selectedDecoration: BoxDecoration(
-                    color: Colors.orangeAccent,
+                    color: AppColors.secondaryColor,
                     shape: BoxShape.circle,
                   ),
                   markerDecoration: BoxDecoration(
